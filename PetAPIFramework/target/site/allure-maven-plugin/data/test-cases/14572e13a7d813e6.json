@@ -1,0 +1,165 @@
+{
+  "uid" : "14572e13a7d813e6",
+  "name" : "getDeletePetAsNotFound",
+  "fullName" : "com.au.petstore.testsAPI.GetPetByID.getDeletePetAsNotFound",
+  "historyId" : "906c1c36954dad559591aea7e3eea578",
+  "time" : {
+    "start" : 1721388157988,
+    "stop" : 1721388160998,
+    "duration" : 3010
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "generateRandomID",
+    "time" : {
+      "start" : 1721388129764,
+      "stop" : 1721388129765,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "generateRandomID",
+    "time" : {
+      "start" : 1721388129767,
+      "stop" : 1721388129767,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "generateRandomID",
+    "time" : {
+      "start" : 1721388129777,
+      "stop" : 1721388129777,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "generateRandomID",
+    "time" : {
+      "start" : 1721388154204,
+      "stop" : 1721388156509,
+      "duration" : 2305
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanAllureResultsFolder",
+    "time" : {
+      "start" : 1721388129663,
+      "stop" : 1721388129689,
+      "duration" : 26
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "deleteRandomPetID",
+    "time" : {
+      "start" : 1721388246380,
+      "stop" : 1721388248807,
+      "duration" : 2427
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.au.petstore.testsAPI.GetPetByID"
+  }, {
+    "name" : "testClass",
+    "value" : "com.au.petstore.testsAPI.GetPetByID"
+  }, {
+    "name" : "testMethod",
+    "value" : "getDeletePetAsNotFound"
+  }, {
+    "name" : "parentSuite",
+    "value" : "PetStoreSuite"
+  }, {
+    "name" : "suite",
+    "value" : "PetStoreTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.au.petstore.testsAPI.GetPetByID"
+  }, {
+    "name" : "host",
+    "value" : "Sakshis-MacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "70162@Sakshis-MacBook-Air.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6c14a90424148b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721387409904,
+        "stop" : 1721387413666,
+        "duration" : 3762
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14572e13a7d813e6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PetStoreSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.au.petstore.utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="PetStoreTests(failed)" verbose="0">
+    <classes>
+      <class name="com.au.petstore.testsAPI.PostPetInStoreWithFormData">
+        <methods>
+          <include name="updatePetWithInvalidFields"/>
+          <include name="generateRandomID"/>
+          <include name="cleanAllureResultsFolder"/>
+        </methods>
+      </class> <!-- com.au.petstore.testsAPI.PostPetInStoreWithFormData -->
+      <class name="com.au.petstore.testsAPI.GetPetByStatus">
+        <methods>
+          <include name="generateRandomID"/>
+          <include name="getPetByInvalidStatus"/>
+          <include name="getPetByRemovingStatus"/>
+          <include name="cleanAllureResultsFolder"/>
+        </methods>
+      </class> <!-- com.au.petstore.testsAPI.GetPetByStatus -->
+      <class name="com.au.petstore.testsAPI.PostCreatePetAPI">
+        <methods>
+          <include name="postAPIToCreatePetWithoutMandatoryFieldsError400"/>
+          <include name="notAbleToCreatePetBadRequestError400"/>
+          <include name="notAbleToCreatePetAsEmptyObjectError400"/>
+          <include name="generateRandomID"/>
+          <include name="deleteRandomPetID"/>
+          <include name="cleanAllureResultsFolder"/>
+          <include name="createPetWIthSameID"/>
+        </methods>
+      </class> <!-- com.au.petstore.testsAPI.PostCreatePetAPI -->
+      <class name="com.au.petstore.testsAPI.PutUpdateAnExistingPet">
+        <methods>
+          <include name="notAbleToCreatePetAsEmptyObjectError400"/>
+          <include name="generateRandomID"/>
+          <include name="notAbleToUpdatePetBadRequestError400"/>
+          <include name="updatePetWithoutMandatoryFieldsError400"/>
+          <include name="cleanAllureResultsFolder"/>
+          <include name="updatePetWithDeletedPetID"/>
+        </methods>
+      </class> <!-- com.au.petstore.testsAPI.PutUpdateAnExistingPet -->
+      <class name="com.au.petstore.testsAPI.PostUploadPetImage">
+        <methods>
+          <include name="generateRandomID"/>
+          <include name="updatePetWithMandatoryFields"/>
+          <include name="updatePetWithDeletedPetID"/>
+          <include name="cleanAllureResultsFolder"/>
+        </methods>
+      </class> <!-- com.au.petstore.testsAPI.PostUploadPetImage -->
+    </classes>
+  </test> <!-- PetStoreTests(failed) -->
+</suite> <!-- Failed suite [PetStoreSuite] -->
