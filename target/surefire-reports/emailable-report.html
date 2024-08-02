@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">PetStoreSuite</th></tr>
+<tr><td><a href="#t0">PetStoreTests</a></td><td class="num">27</td><td class="num">0</td><td class="num">0</td><td class="num attn">13</td><td class="num">88,516</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PetStoreSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PetStoreTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.au.petstore.testsAPI.GetPetByStatus</td><td><a href="#m0">getPetByInvalidStatus</a></td><td rowspan="1">1722640402844</td><td rowspan="1">1434</td></tr><tr class="failedeven"><td><a href="#m1">getPetByRemovingStatus</a></td><td rowspan="1">1722640404296</td><td rowspan="1">1206</td></tr><tr class="failedodd"><td rowspan="4">com.au.petstore.testsAPI.PostCreatePetAPI</td><td><a href="#m2">createPetWIthSameID</a></td><td rowspan="1">1722640415237</td><td rowspan="1">2878</td></tr><tr class="failedodd"><td><a href="#m3">notAbleToCreatePetAsEmptyObjectError400</a></td><td rowspan="1">1722640419646</td><td rowspan="1">1521</td></tr><tr class="failedodd"><td><a href="#m4">notAbleToCreatePetBadRequestError400</a></td><td rowspan="1">1722640425169</td><td rowspan="1">1426</td></tr><tr class="failedodd"><td><a href="#m5">postAPIToCreatePetWithoutMandatoryFieldsError400</a></td><td rowspan="1">1722640432336</td><td rowspan="1">1462</td></tr><tr class="failedeven"><td rowspan="1">com.au.petstore.testsAPI.PostPetInStoreWithFormData</td><td><a href="#m6">updatePetWithInvalidFields</a></td><td rowspan="1">1722640439400</td><td rowspan="1">1398</td></tr><tr class="failedodd"><td rowspan="2">com.au.petstore.testsAPI.PostUploadPetImage</td><td><a href="#m7">updatePetWithDeletedPetID</a></td><td rowspan="1">1722640443845</td><td rowspan="1">2953</td></tr><tr class="failedodd"><td><a href="#m8">updatePetWithMandatoryFields</a></td><td rowspan="1">1722640446803</td><td rowspan="1">1329</td></tr><tr class="failedeven"><td rowspan="4">com.au.petstore.testsAPI.PutUpdateAnExistingPet</td><td><a href="#m9">notAbleToCreatePetAsEmptyObjectError400</a></td><td rowspan="1">1722640451173</td><td rowspan="1">1431</td></tr><tr class="failedeven"><td><a href="#m10">notAbleToUpdatePetBadRequestError400</a></td><td rowspan="1">1722640455402</td><td rowspan="1">1501</td></tr><tr class="failedeven"><td><a href="#m11">updatePetWithDeletedPetID</a></td><td rowspan="1">1722640456908</td><td rowspan="1">2863</td></tr><tr class="failedeven"><td><a href="#m12">updatePetWithoutMandatoryFieldsError400</a></td><td rowspan="1">1722640465330</td><td rowspan="1">1506</td></tr><tr><th colspan="4">PetStoreTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.au.petstore.testsAPI.DeletePet</td><td><a href="#m13">deleteNonExistencePetIDFromTheStore</a></td><td rowspan="1">1722640379848</td><td rowspan="1">10907</td></tr><tr class="passedeven"><td><a href="#m14">deletePetFromTheStoreWithValidPetID</a></td><td rowspan="1">1722640391086</td><td rowspan="1">2975</td></tr><tr class="passedeven"><td><a href="#m15">deletePetIDFromTheStoreWithoutMandatoryFieldPetID</a></td><td rowspan="1">1722640394066</td><td rowspan="1">1407</td></tr><tr class="passedodd"><td rowspan="3">com.au.petstore.testsAPI.GetPetByID</td><td><a href="#m16">getDeletePetAsNotFound</a></td><td rowspan="1">1722640398467</td><td rowspan="1">2838</td></tr><tr class="passedodd"><td><a href="#m17">getPetByID</a></td><td rowspan="1">1722640397005</td><td rowspan="1">1456</td></tr><tr class="passedodd"><td><a href="#m18">getPetByInvalidID</a></td><td rowspan="1">1722640401308</td><td rowspan="1">1534</td></tr><tr class="passedeven"><td rowspan="3">com.au.petstore.testsAPI.GetPetByStatus</td><td><a href="#m19">getPetByStatus</a></td><td rowspan="3">1722640405517</td><td rowspan="3">3384</td></tr><tr class="passedeven"><td><a href="#m20">getPetByStatus</a></td></tr><tr class="passedeven"><td><a href="#m21">getPetByStatus</a></td></tr><tr class="passedodd"><td rowspan="7">com.au.petstore.testsAPI.PostCreatePetAPI</td><td><a href="#m22">createPetWithMandatoryFields</a></td><td rowspan="1">1722640418120</td><td rowspan="1">1523</td></tr><tr class="passedodd"><td><a href="#m23">notAbleToCreatePetAsIDIsMissingError500</a></td><td rowspan="1">1722640421172</td><td rowspan="1">2672</td></tr><tr class="passedodd"><td><a href="#m24">notAbleToCreatePetAsResourceIsMissingError404</a></td><td rowspan="1">1722640423846</td><td rowspan="1">1316</td></tr><tr class="passedodd"><td><a href="#m25">notAbleToCreatePetWithoutBodyError405</a></td><td rowspan="1">1722640426600</td><td rowspan="1">1450</td></tr><tr class="passedodd"><td><a href="#m26">postAPIToCreatePetWithDifferentStatus</a></td><td rowspan="3">1722640430902</td><td rowspan="3">1431</td></tr><tr class="passedodd"><td><a href="#m27">postAPIToCreatePetWithDifferentStatus</a></td></tr><tr class="passedodd"><td><a href="#m28">postAPIToCreatePetWithDifferentStatus</a></td></tr><tr class="passedeven"><td rowspan="3">com.au.petstore.testsAPI.PostPetInStoreWithFormData</td><td><a href="#m29">updateExistingPetWithNameAndStatus</a></td><td rowspan="3">1722640436636</td><td rowspan="3">1360</td></tr><tr class="passedeven"><td><a href="#m30">updateExistingPetWithNameAndStatus</a></td></tr><tr class="passedeven"><td><a href="#m31">updateExistingPetWithNameAndStatus</a></td></tr><tr class="passedodd"><td rowspan="2">com.au.petstore.testsAPI.PostUploadPetImage</td><td><a href="#m32">updateExistingPetWithImage</a></td><td rowspan="1">1722640442263</td><td rowspan="1">1579</td></tr><tr class="passedodd"><td><a href="#m33">updatePetWithoutMandatoryFields</a></td><td rowspan="1">1722640448137</td><td rowspan="1">1499</td></tr><tr class="passedeven"><td rowspan="6">com.au.petstore.testsAPI.PutUpdateAnExistingPet</td><td><a href="#m34">notAbleToCreatePetAsIDIsMissingError500</a></td><td rowspan="1">1722640452609</td><td rowspan="1">1279</td></tr><tr class="passedeven"><td><a href="#m35">notAbleToCreatePetWithoutBodyError405</a></td><td rowspan="1">1722640453891</td><td rowspan="1">1508</td></tr><tr class="passedeven"><td><a href="#m36">updatePetWithDifferentStatusForSamePetID</a></td><td rowspan="3">1722640462644</td><td rowspan="3">1434</td></tr><tr class="passedeven"><td><a href="#m37">updatePetWithDifferentStatusForSamePetID</a></td></tr><tr class="passedeven"><td><a href="#m38">updatePetWithDifferentStatusForSamePetID</a></td></tr><tr class="passedeven"><td><a href="#m39">updatePetWithMandatoryFields</a></td><td rowspan="1">1722640464080</td><td rowspan="1">1248</td></tr></tbody>
+</table>
+<h2>PetStoreTests</h2><h3 id="m0">com.au.petstore.testsAPI.GetPetByStatus#getPetByInvalidStatus</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.GetPetByStatus.getPetByInvalidStatus(GetPetByStatus.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.au.petstore.testsAPI.GetPetByStatus#getPetByRemovingStatus</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;405&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.GetPetByStatus.getPetByRemovingStatus(GetPetByStatus.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.au.petstore.testsAPI.PostCreatePetAPI#createPetWIthSameID</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;409&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostCreatePetAPI.createPetWIthSameID(PostCreatePetAPI.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.au.petstore.testsAPI.PostCreatePetAPI#notAbleToCreatePetAsEmptyObjectError400</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostCreatePetAPI.notAbleToCreatePetAsEmptyObjectError400(PostCreatePetAPI.java:142)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.au.petstore.testsAPI.PostCreatePetAPI#notAbleToCreatePetBadRequestError400</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostCreatePetAPI.notAbleToCreatePetBadRequestError400(PostCreatePetAPI.java:114)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.au.petstore.testsAPI.PostCreatePetAPI#postAPIToCreatePetWithoutMandatoryFieldsError400</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostCreatePetAPI.postAPIToCreatePetWithoutMandatoryFieldsError400(PostCreatePetAPI.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.au.petstore.testsAPI.PostPetInStoreWithFormData#updatePetWithInvalidFields</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;200&gt;
+     but: was &lt;415&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostPetInStoreWithFormData.updatePetWithInvalidFields(PostPetInStoreWithFormData.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.au.petstore.testsAPI.PostUploadPetImage#updatePetWithDeletedPetID</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;404&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostUploadPetImage.updatePetWithDeletedPetID(PostUploadPetImage.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.au.petstore.testsAPI.PostUploadPetImage#updatePetWithMandatoryFields</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;200&gt;
+     but: was &lt;404&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostUploadPetImage.updatePetWithMandatoryFields(PostUploadPetImage.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.au.petstore.testsAPI.PutUpdateAnExistingPet#notAbleToCreatePetAsEmptyObjectError400</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PutUpdateAnExistingPet.notAbleToCreatePetAsEmptyObjectError400(PutUpdateAnExistingPet.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.au.petstore.testsAPI.PutUpdateAnExistingPet#notAbleToUpdatePetBadRequestError400</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PutUpdateAnExistingPet.notAbleToUpdatePetBadRequestError400(PutUpdateAnExistingPet.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.au.petstore.testsAPI.PutUpdateAnExistingPet#updatePetWithDeletedPetID</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;404&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PutUpdateAnExistingPet.updatePetWithDeletedPetID(PutUpdateAnExistingPet.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.au.petstore.testsAPI.PutUpdateAnExistingPet#updatePetWithoutMandatoryFieldsError400</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PutUpdateAnExistingPet.updatePetWithoutMandatoryFieldsError400(PutUpdateAnExistingPet.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.au.petstore.testsAPI.DeletePet#deleteNonExistencePetIDFromTheStore</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.au.petstore.testsAPI.DeletePet#deletePetFromTheStoreWithValidPetID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.au.petstore.testsAPI.DeletePet#deletePetIDFromTheStoreWithoutMandatoryFieldPetID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.au.petstore.testsAPI.GetPetByID#getDeletePetAsNotFound</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.au.petstore.testsAPI.GetPetByID#getPetByID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.au.petstore.testsAPI.GetPetByID#getPetByInvalidID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.au.petstore.testsAPI.GetPetByStatus#getPetByStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>available</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.au.petstore.testsAPI.GetPetByStatus#getPetByStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sold</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.au.petstore.testsAPI.GetPetByStatus#getPetByStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Pending</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.au.petstore.testsAPI.PostCreatePetAPI#createPetWithMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.au.petstore.testsAPI.PostCreatePetAPI#notAbleToCreatePetAsIDIsMissingError500</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.au.petstore.testsAPI.PostCreatePetAPI#notAbleToCreatePetAsResourceIsMissingError404</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.au.petstore.testsAPI.PostCreatePetAPI#notAbleToCreatePetWithoutBodyError405</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.au.petstore.testsAPI.PostCreatePetAPI#postAPIToCreatePetWithDifferentStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Pending</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.au.petstore.testsAPI.PostCreatePetAPI#postAPIToCreatePetWithDifferentStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sold</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">com.au.petstore.testsAPI.PostCreatePetAPI#postAPIToCreatePetWithDifferentStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>available</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">com.au.petstore.testsAPI.PostPetInStoreWithFormData#updateExistingPetWithNameAndStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Jo</td><td>sold</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">com.au.petstore.testsAPI.PostPetInStoreWithFormData#updateExistingPetWithNameAndStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Jack</td><td>available</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">com.au.petstore.testsAPI.PostPetInStoreWithFormData#updateExistingPetWithNameAndStatus</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Mike</td><td>Pending</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">com.au.petstore.testsAPI.PostUploadPetImage#updateExistingPetWithImage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">com.au.petstore.testsAPI.PostUploadPetImage#updatePetWithoutMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">com.au.petstore.testsAPI.PutUpdateAnExistingPet#notAbleToCreatePetAsIDIsMissingError500</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">com.au.petstore.testsAPI.PutUpdateAnExistingPet#notAbleToCreatePetWithoutBodyError405</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">com.au.petstore.testsAPI.PutUpdateAnExistingPet#updatePetWithDifferentStatusForSamePetID</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Pending</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">com.au.petstore.testsAPI.PutUpdateAnExistingPet#updatePetWithDifferentStatusForSamePetID</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>available</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">com.au.petstore.testsAPI.PutUpdateAnExistingPet#updatePetWithDifferentStatusForSamePetID</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sold</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">com.au.petstore.testsAPI.PutUpdateAnExistingPet#updatePetWithMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

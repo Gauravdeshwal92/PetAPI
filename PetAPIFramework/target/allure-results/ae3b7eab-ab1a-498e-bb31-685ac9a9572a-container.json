@@ -1,1 +1,0 @@
-{"uuid":"ae3b7eab-ab1a-498e-bb31-685ac9a9572a","name":"PetStoreSuite","children":["2fa5bbf2-51ee-4e25-8436-f292ac3fa8b1"],"befores":[{"name":"cleanAllureResultsFolder","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1721387388458,"stop":1721387388470}],"afters":[],"start":1721387388332,"stop":1721387492642}
