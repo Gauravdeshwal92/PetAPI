@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetStoreSuite">
+    <listeners>
+        <listener class-name="com.au.petstore.utils.Listeners" />
+    </listeners>
+
+    <test name="PetStoreTests">
+        <classes>
+            <class name="com.au.petstore.testsAPI.DeletePet" />
+            <class name="com.au.petstore.testsAPI.GetPetByID" />
+            <class name="com.au.petstore.testsAPI.GetPetByStatus" />
+            <class name="com.au.petstore.testsAPI.PostCreatePetAPI" />
+            <class name="com.au.petstore.testsAPI.PostPetInStoreWithFormData" />
+            <class name="com.au.petstore.testsAPI.PostUploadPetImage" />
+            <class name="com.au.petstore.testsAPI.PutUpdateAnExistingPet" />
+            <!-- Add other test classes here -->
+        </classes>
+    </test>
+</suite>

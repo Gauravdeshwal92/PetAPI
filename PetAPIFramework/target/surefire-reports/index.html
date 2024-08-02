@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 13 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-PetStoreSuite" class="navigator-link">
+              <span class="suite-name border-failed">PetStoreSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-PetStoreSuite" class="navigator-link ">
+                    <span>APITestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-PetStoreSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-PetStoreSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-PetStoreSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-PetStoreSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-PetStoreSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-PetStoreSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 13 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PetStoreSuite" class="hide-methods failed suite-PetStoreSuite"> (hide)</a> <!-- hide-methods failed suite-PetStoreSuite -->
+                      <a href="#" panel-name="suite-PetStoreSuite" class="show-methods failed suite-PetStoreSuite"> (show)</a> <!-- show-methods failed suite-PetStoreSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-PetStoreSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="createPetWIthSameID">createPetWIthSameID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.GetPetByStatus" class="method navigator-link" hash-for-method="getPetByInvalidStatus">getPetByInvalidStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.GetPetByStatus" class="method navigator-link" hash-for-method="getPetByRemovingStatus">getPetByRemovingStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="notAbleToCreatePetAsEmptyObjectError400">notAbleToCreatePetAsEmptyObjectError400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="notAbleToCreatePetAsEmptyObjectError400">notAbleToCreatePetAsEmptyObjectError400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="notAbleToCreatePetBadRequestError400">notAbleToCreatePetBadRequestError400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="notAbleToUpdatePetBadRequestError400">notAbleToUpdatePetBadRequestError400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="postAPIToCreatePetWithoutMandatoryFieldsError400">postAPIToCreatePetWithoutMandatoryFieldsError400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostUploadPetImage" class="method navigator-link" hash-for-method="updatePetWithDeletedPetID">updatePetWithDeletedPetID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="updatePetWithDeletedPetID">updatePetWithDeletedPetID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostPetInStoreWithFormData" class="method navigator-link" hash-for-method="updatePetWithInvalidFields">updatePetWithInvalidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostUploadPetImage" class="method navigator-link" hash-for-method="updatePetWithMandatoryFields">updatePetWithMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="updatePetWithoutMandatoryFieldsError400">updatePetWithoutMandatoryFieldsError400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PetStoreSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PetStoreSuite" class="hide-methods passed suite-PetStoreSuite"> (hide)</a> <!-- hide-methods passed suite-PetStoreSuite -->
+                      <a href="#" panel-name="suite-PetStoreSuite" class="show-methods passed suite-PetStoreSuite"> (show)</a> <!-- show-methods passed suite-PetStoreSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-PetStoreSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="createPetWithMandatoryFields">createPetWithMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.DeletePet" class="method navigator-link" hash-for-method="deleteNonExistencePetIDFromTheStore">deleteNonExistencePetIDFromTheStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.DeletePet" class="method navigator-link" hash-for-method="deletePetFromTheStoreWithValidPetID">deletePetFromTheStoreWithValidPetID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.DeletePet" class="method navigator-link" hash-for-method="deletePetIDFromTheStoreWithoutMandatoryFieldPetID">deletePetIDFromTheStoreWithoutMandatoryFieldPetID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.GetPetByID" class="method navigator-link" hash-for-method="getDeletePetAsNotFound">getDeletePetAsNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.GetPetByID" class="method navigator-link" hash-for-method="getPetByID">getPetByID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.GetPetByID" class="method navigator-link" hash-for-method="getPetByInvalidID">getPetByInvalidID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.GetPetByStatus" class="method navigator-link" hash-for-method="getPetByStatus(available)">getPetByStatus(available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.GetPetByStatus" class="method navigator-link" hash-for-method="getPetByStatus(Pending)">getPetByStatus(Pending)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.GetPetByStatus" class="method navigator-link" hash-for-method="getPetByStatus(sold)">getPetByStatus(sold)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="notAbleToCreatePetAsIDIsMissingError500">notAbleToCreatePetAsIDIsMissingError500</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="notAbleToCreatePetAsIDIsMissingError500">notAbleToCreatePetAsIDIsMissingError500</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="notAbleToCreatePetAsResourceIsMissingError404">notAbleToCreatePetAsResourceIsMissingError404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="notAbleToCreatePetWithoutBodyError405">notAbleToCreatePetWithoutBodyError405</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="notAbleToCreatePetWithoutBodyError405">notAbleToCreatePetWithoutBodyError405</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="postAPIToCreatePetWithDifferentStatus(Pending)">postAPIToCreatePetWithDifferentStatus(Pending)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="postAPIToCreatePetWithDifferentStatus(sold)">postAPIToCreatePetWithDifferentStatus(sold)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostCreatePetAPI" class="method navigator-link" hash-for-method="postAPIToCreatePetWithDifferentStatus(available)">postAPIToCreatePetWithDifferentStatus(available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostUploadPetImage" class="method navigator-link" hash-for-method="updateExistingPetWithImage">updateExistingPetWithImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostPetInStoreWithFormData" class="method navigator-link" hash-for-method="updateExistingPetWithNameAndStatus(Jo, sold)">updateExistingPetWithNameAndStatus(Jo, sold)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostPetInStoreWithFormData" class="method navigator-link" hash-for-method="updateExistingPetWithNameAndStatus(Jack, available)">updateExistingPetWithNameAndStatus(Jack, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostPetInStoreWithFormData" class="method navigator-link" hash-for-method="updateExistingPetWithNameAndStatus(Mike, Pending)">updateExistingPetWithNameAndStatus(Mike, Pending)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="updatePetWithDifferentStatusForSamePetID(sold)">updatePetWithDifferentStatusForSamePetID(sold)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="updatePetWithDifferentStatusForSamePetID(available)">updatePetWithDifferentStatusForSamePetID(available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="updatePetWithDifferentStatusForSamePetID(Pending)">updatePetWithDifferentStatusForSamePetID(Pending)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PutUpdateAnExistingPet" class="method navigator-link" hash-for-method="updatePetWithMandatoryFields">updatePetWithMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreSuite" title="com.au.petstore.testsAPI.PostUploadPetImage" class="method navigator-link" hash-for-method="updatePetWithoutMandatoryFields">updatePetWithoutMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PetStoreSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PetStoreSuite" class="panel PetStoreSuite">
+          <div class="suite-PetStoreSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.PostPetInStoreWithFormData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithInvalidFields">
+                  </a> <!-- updatePetWithInvalidFields -->
+                  <span class="method-name">updatePetWithInvalidFields</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;200&gt;
+     but: was &lt;415&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostPetInStoreWithFormData.updatePetWithInvalidFields(PostPetInStoreWithFormData.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-failed -->
+          <div class="suite-PetStoreSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.GetPetByStatus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetByInvalidStatus">
+                  </a> <!-- getPetByInvalidStatus -->
+                  <span class="method-name">getPetByInvalidStatus</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.GetPetByStatus.getPetByInvalidStatus(GetPetByStatus.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetByRemovingStatus">
+                  </a> <!-- getPetByRemovingStatus -->
+                  <span class="method-name">getPetByRemovingStatus</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;405&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.GetPetByStatus.getPetByRemovingStatus(GetPetByStatus.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-failed -->
+          <div class="suite-PetStoreSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.PostCreatePetAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetWIthSameID">
+                  </a> <!-- createPetWIthSameID -->
+                  <span class="method-name">createPetWIthSameID</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;409&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostCreatePetAPI.createPetWIthSameID(PostCreatePetAPI.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToCreatePetAsEmptyObjectError400">
+                  </a> <!-- notAbleToCreatePetAsEmptyObjectError400 -->
+                  <span class="method-name">notAbleToCreatePetAsEmptyObjectError400</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostCreatePetAPI.notAbleToCreatePetAsEmptyObjectError400(PostCreatePetAPI.java:142)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToCreatePetBadRequestError400">
+                  </a> <!-- notAbleToCreatePetBadRequestError400 -->
+                  <span class="method-name">notAbleToCreatePetBadRequestError400</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostCreatePetAPI.notAbleToCreatePetBadRequestError400(PostCreatePetAPI.java:114)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postAPIToCreatePetWithoutMandatoryFieldsError400">
+                  </a> <!-- postAPIToCreatePetWithoutMandatoryFieldsError400 -->
+                  <span class="method-name">postAPIToCreatePetWithoutMandatoryFieldsError400</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostCreatePetAPI.postAPIToCreatePetWithoutMandatoryFieldsError400(PostCreatePetAPI.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-failed -->
+          <div class="suite-PetStoreSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.PostUploadPetImage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithDeletedPetID">
+                  </a> <!-- updatePetWithDeletedPetID -->
+                  <span class="method-name">updatePetWithDeletedPetID</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;404&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostUploadPetImage.updatePetWithDeletedPetID(PostUploadPetImage.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithMandatoryFields">
+                  </a> <!-- updatePetWithMandatoryFields -->
+                  <span class="method-name">updatePetWithMandatoryFields</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;200&gt;
+     but: was &lt;404&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PostUploadPetImage.updatePetWithMandatoryFields(PostUploadPetImage.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-failed -->
+          <div class="suite-PetStoreSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.PutUpdateAnExistingPet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToCreatePetAsEmptyObjectError400">
+                  </a> <!-- notAbleToCreatePetAsEmptyObjectError400 -->
+                  <span class="method-name">notAbleToCreatePetAsEmptyObjectError400</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PutUpdateAnExistingPet.notAbleToCreatePetAsEmptyObjectError400(PutUpdateAnExistingPet.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToUpdatePetBadRequestError400">
+                  </a> <!-- notAbleToUpdatePetBadRequestError400 -->
+                  <span class="method-name">notAbleToUpdatePetBadRequestError400</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PutUpdateAnExistingPet.notAbleToUpdatePetBadRequestError400(PutUpdateAnExistingPet.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithDeletedPetID">
+                  </a> <!-- updatePetWithDeletedPetID -->
+                  <span class="method-name">updatePetWithDeletedPetID</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;404&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PutUpdateAnExistingPet.updatePetWithDeletedPetID(PutUpdateAnExistingPet.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithoutMandatoryFieldsError400">
+                  </a> <!-- updatePetWithoutMandatoryFieldsError400 -->
+                  <span class="method-name">updatePetWithoutMandatoryFieldsError400</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.au.petstore.testsAPI.PutUpdateAnExistingPet.updatePetWithoutMandatoryFieldsError400(PutUpdateAnExistingPet.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-failed -->
+          <div class="suite-PetStoreSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.DeletePet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteNonExistencePetIDFromTheStore">
+                  </a> <!-- deleteNonExistencePetIDFromTheStore -->
+                  <span class="method-name">deleteNonExistencePetIDFromTheStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePetFromTheStoreWithValidPetID">
+                  </a> <!-- deletePetFromTheStoreWithValidPetID -->
+                  <span class="method-name">deletePetFromTheStoreWithValidPetID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePetIDFromTheStoreWithoutMandatoryFieldPetID">
+                  </a> <!-- deletePetIDFromTheStoreWithoutMandatoryFieldPetID -->
+                  <span class="method-name">deletePetIDFromTheStoreWithoutMandatoryFieldPetID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-passed -->
+          <div class="suite-PetStoreSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.PostPetInStoreWithFormData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingPetWithNameAndStatus(Jo, sold)">
+                  </a> <!-- updateExistingPetWithNameAndStatus(Jo, sold) -->
+                  <span class="method-name">updateExistingPetWithNameAndStatus</span>
+                  <span class="parameters">(Jo,sold)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingPetWithNameAndStatus(Jack, available)">
+                  </a> <!-- updateExistingPetWithNameAndStatus(Jack, available) -->
+                  <span class="method-name">updateExistingPetWithNameAndStatus</span>
+                  <span class="parameters">(Jack,available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingPetWithNameAndStatus(Mike, Pending)">
+                  </a> <!-- updateExistingPetWithNameAndStatus(Mike, Pending) -->
+                  <span class="method-name">updateExistingPetWithNameAndStatus</span>
+                  <span class="parameters">(Mike,Pending)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-passed -->
+          <div class="suite-PetStoreSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.GetPetByStatus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetByStatus(available)">
+                  </a> <!-- getPetByStatus(available) -->
+                  <span class="method-name">getPetByStatus</span>
+                  <span class="parameters">(available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetByStatus(Pending)">
+                  </a> <!-- getPetByStatus(Pending) -->
+                  <span class="method-name">getPetByStatus</span>
+                  <span class="parameters">(Pending)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetByStatus(sold)">
+                  </a> <!-- getPetByStatus(sold) -->
+                  <span class="method-name">getPetByStatus</span>
+                  <span class="parameters">(sold)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-passed -->
+          <div class="suite-PetStoreSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.GetPetByID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDeletePetAsNotFound">
+                  </a> <!-- getDeletePetAsNotFound -->
+                  <span class="method-name">getDeletePetAsNotFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetByID">
+                  </a> <!-- getPetByID -->
+                  <span class="method-name">getPetByID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetByInvalidID">
+                  </a> <!-- getPetByInvalidID -->
+                  <span class="method-name">getPetByInvalidID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-passed -->
+          <div class="suite-PetStoreSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.PostCreatePetAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetWithMandatoryFields">
+                  </a> <!-- createPetWithMandatoryFields -->
+                  <span class="method-name">createPetWithMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToCreatePetAsIDIsMissingError500">
+                  </a> <!-- notAbleToCreatePetAsIDIsMissingError500 -->
+                  <span class="method-name">notAbleToCreatePetAsIDIsMissingError500</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToCreatePetAsResourceIsMissingError404">
+                  </a> <!-- notAbleToCreatePetAsResourceIsMissingError404 -->
+                  <span class="method-name">notAbleToCreatePetAsResourceIsMissingError404</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToCreatePetWithoutBodyError405">
+                  </a> <!-- notAbleToCreatePetWithoutBodyError405 -->
+                  <span class="method-name">notAbleToCreatePetWithoutBodyError405</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postAPIToCreatePetWithDifferentStatus(Pending)">
+                  </a> <!-- postAPIToCreatePetWithDifferentStatus(Pending) -->
+                  <span class="method-name">postAPIToCreatePetWithDifferentStatus</span>
+                  <span class="parameters">(Pending)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postAPIToCreatePetWithDifferentStatus(sold)">
+                  </a> <!-- postAPIToCreatePetWithDifferentStatus(sold) -->
+                  <span class="method-name">postAPIToCreatePetWithDifferentStatus</span>
+                  <span class="parameters">(sold)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postAPIToCreatePetWithDifferentStatus(available)">
+                  </a> <!-- postAPIToCreatePetWithDifferentStatus(available) -->
+                  <span class="method-name">postAPIToCreatePetWithDifferentStatus</span>
+                  <span class="parameters">(available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-passed -->
+          <div class="suite-PetStoreSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.PostUploadPetImage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingPetWithImage">
+                  </a> <!-- updateExistingPetWithImage -->
+                  <span class="method-name">updateExistingPetWithImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithoutMandatoryFields">
+                  </a> <!-- updatePetWithoutMandatoryFields -->
+                  <span class="method-name">updatePetWithoutMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-passed -->
+          <div class="suite-PetStoreSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.au.petstore.testsAPI.PutUpdateAnExistingPet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToCreatePetAsIDIsMissingError500">
+                  </a> <!-- notAbleToCreatePetAsIDIsMissingError500 -->
+                  <span class="method-name">notAbleToCreatePetAsIDIsMissingError500</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAbleToCreatePetWithoutBodyError405">
+                  </a> <!-- notAbleToCreatePetWithoutBodyError405 -->
+                  <span class="method-name">notAbleToCreatePetWithoutBodyError405</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithDifferentStatusForSamePetID(sold)">
+                  </a> <!-- updatePetWithDifferentStatusForSamePetID(sold) -->
+                  <span class="method-name">updatePetWithDifferentStatusForSamePetID</span>
+                  <span class="parameters">(sold)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithDifferentStatusForSamePetID(available)">
+                  </a> <!-- updatePetWithDifferentStatusForSamePetID(available) -->
+                  <span class="method-name">updatePetWithDifferentStatusForSamePetID</span>
+                  <span class="parameters">(available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithDifferentStatusForSamePetID(Pending)">
+                  </a> <!-- updatePetWithDifferentStatusForSamePetID(Pending) -->
+                  <span class="method-name">updatePetWithDifferentStatusForSamePetID</span>
+                  <span class="parameters">(Pending)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithMandatoryFields">
+                  </a> <!-- updatePetWithMandatoryFields -->
+                  <span class="method-name">updatePetWithMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreSuite-class-passed -->
+        </div> <!-- panel PetStoreSuite -->
+        <div panel-name="test-xml-PetStoreSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/sakshimalik/Documents/RestAssured/PetAPIFramework/APITestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PetStoreSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.au.petstore.utils.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PetStoreTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.au.petstore.testsAPI.DeletePet&quot;/&gt;
+      &lt;class name=&quot;com.au.petstore.testsAPI.GetPetByID&quot;/&gt;
+      &lt;class name=&quot;com.au.petstore.testsAPI.GetPetByStatus&quot;/&gt;
+      &lt;class name=&quot;com.au.petstore.testsAPI.PostCreatePetAPI&quot;/&gt;
+      &lt;class name=&quot;com.au.petstore.testsAPI.PostPetInStoreWithFormData&quot;/&gt;
+      &lt;class name=&quot;com.au.petstore.testsAPI.PostUploadPetImage&quot;/&gt;
+      &lt;class name=&quot;com.au.petstore.testsAPI.PutUpdateAnExistingPet&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PetStoreTests --&gt;
+&lt;/suite&gt; &lt;!-- PetStoreSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PetStoreSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PetStoreSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PetStoreTests (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PetStoreSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PetStoreSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PetStoreSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PetStoreSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PetStoreSuite');
+function tableData_PetStoreSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deleteNonExistencePetIDFromTheStore')
+data.setCell(0, 2, 'com.au.petstore.testsAPI.DeletePet')
+data.setCell(0, 3, 11198);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getPetByStatus')
+data.setCell(1, 2, 'com.au.petstore.testsAPI.GetPetByStatus')
+data.setCell(1, 3, 6872);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'notAbleToCreatePetAsIDIsMissingError500')
+data.setCell(2, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(2, 3, 4382);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'notAbleToCreatePetWithoutBodyError405')
+data.setCell(3, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(3, 3, 3869);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getDeletePetAsNotFound')
+data.setCell(4, 2, 'com.au.petstore.testsAPI.GetPetByID')
+data.setCell(4, 3, 3767);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createPetWIthSameID')
+data.setCell(5, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(5, 3, 3150);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deletePetFromTheStoreWithValidPetID')
+data.setCell(6, 2, 'com.au.petstore.testsAPI.DeletePet')
+data.setCell(6, 3, 3120);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getPetByStatus')
+data.setCell(7, 2, 'com.au.petstore.testsAPI.GetPetByStatus')
+data.setCell(7, 3, 2929);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'updatePetWithDeletedPetID')
+data.setCell(8, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(8, 3, 2789);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getPetByStatus')
+data.setCell(9, 2, 'com.au.petstore.testsAPI.GetPetByStatus')
+data.setCell(9, 3, 2750);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'updatePetWithDeletedPetID')
+data.setCell(10, 2, 'com.au.petstore.testsAPI.PostUploadPetImage')
+data.setCell(10, 3, 2697);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'postAPIToCreatePetWithoutMandatoryFieldsError400')
+data.setCell(11, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(11, 3, 2549);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getPetByID')
+data.setCell(12, 2, 'com.au.petstore.testsAPI.GetPetByID')
+data.setCell(12, 3, 2452);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'postAPIToCreatePetWithDifferentStatus')
+data.setCell(13, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(13, 3, 2255);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getPetByInvalidStatus')
+data.setCell(14, 2, 'com.au.petstore.testsAPI.GetPetByStatus')
+data.setCell(14, 3, 2182);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'notAbleToCreatePetAsIDIsMissingError500')
+data.setCell(15, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(15, 3, 2104);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getPetByInvalidID')
+data.setCell(16, 2, 'com.au.petstore.testsAPI.GetPetByID')
+data.setCell(16, 3, 2051);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'deletePetIDFromTheStoreWithoutMandatoryFieldPetID')
+data.setCell(17, 2, 'com.au.petstore.testsAPI.DeletePet')
+data.setCell(17, 3, 1831);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'updateExistingPetWithImage')
+data.setCell(18, 2, 'com.au.petstore.testsAPI.PostUploadPetImage')
+data.setCell(18, 3, 1638);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'createPetWithMandatoryFields')
+data.setCell(19, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(19, 3, 1635);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'updatePetWithMandatoryFields')
+data.setCell(20, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(20, 3, 1569);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getPetByRemovingStatus')
+data.setCell(21, 2, 'com.au.petstore.testsAPI.GetPetByStatus')
+data.setCell(21, 3, 1551);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'updatePetWithDifferentStatusForSamePetID')
+data.setCell(22, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(22, 3, 1537);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'updatePetWithInvalidFields')
+data.setCell(23, 2, 'com.au.petstore.testsAPI.PostPetInStoreWithFormData')
+data.setCell(23, 3, 1531);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'postAPIToCreatePetWithDifferentStatus')
+data.setCell(24, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(24, 3, 1530);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'notAbleToCreatePetAsEmptyObjectError400')
+data.setCell(25, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(25, 3, 1519);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'updatePetWithMandatoryFields')
+data.setCell(26, 2, 'com.au.petstore.testsAPI.PostUploadPetImage')
+data.setCell(26, 3, 1475);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'notAbleToCreatePetAsEmptyObjectError400')
+data.setCell(27, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(27, 3, 1451);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'updateExistingPetWithNameAndStatus')
+data.setCell(28, 2, 'com.au.petstore.testsAPI.PostPetInStoreWithFormData')
+data.setCell(28, 3, 1435);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'updatePetWithoutMandatoryFieldsError400')
+data.setCell(29, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(29, 3, 1432);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'notAbleToCreatePetWithoutBodyError405')
+data.setCell(30, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(30, 3, 1395);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'updatePetWithoutMandatoryFields')
+data.setCell(31, 2, 'com.au.petstore.testsAPI.PostUploadPetImage')
+data.setCell(31, 3, 1391);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'updatePetWithDifferentStatusForSamePetID')
+data.setCell(32, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(32, 3, 1378);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'notAbleToCreatePetBadRequestError400')
+data.setCell(33, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(33, 3, 1352);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'postAPIToCreatePetWithDifferentStatus')
+data.setCell(34, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(34, 3, 1350);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'notAbleToUpdatePetBadRequestError400')
+data.setCell(35, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(35, 3, 1333);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'updatePetWithDifferentStatusForSamePetID')
+data.setCell(36, 2, 'com.au.petstore.testsAPI.PutUpdateAnExistingPet')
+data.setCell(36, 3, 1328);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'notAbleToCreatePetAsResourceIsMissingError404')
+data.setCell(37, 2, 'com.au.petstore.testsAPI.PostCreatePetAPI')
+data.setCell(37, 3, 1316);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'updateExistingPetWithNameAndStatus')
+data.setCell(38, 2, 'com.au.petstore.testsAPI.PostPetInStoreWithFormData')
+data.setCell(38, 3, 1313);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'updateExistingPetWithNameAndStatus')
+data.setCell(39, 2, 'com.au.petstore.testsAPI.PostPetInStoreWithFormData')
+data.setCell(39, 3, 1288);
+window.suiteTableData['PetStoreSuite']= { tableData: data, tableDiv: 'times-div-PetStoreSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-PetStoreSuite">
+              </div> <!-- times-div-PetStoreSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PetStoreSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PetStoreSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PetStoreSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.au.petstore.testsAPI.PostPetInStoreWithFormData</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanAllureResultsFolder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.au.petstore.testsAPI.GetPetByStatus</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanAllureResultsFolder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.au.petstore.testsAPI.GetPetByID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanAllureResultsFolder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.au.petstore.testsAPI.PostCreatePetAPI</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanAllureResultsFolder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.au.petstore.testsAPI.PostUploadPetImage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanAllureResultsFolder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.au.petstore.testsAPI.PutUpdateAnExistingPet</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanAllureResultsFolder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PetStoreSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.DeletePet</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">cleanAllureResultsFolder</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">generateRandomID</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.GetPetByStatus</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">generateRandomID</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.PostCreatePetAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">generateRandomID</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.DeletePet</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteNonExistencePetIDFromTheStore</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePetFromTheStoreWithValidPetID</span>
+                <span class="method-start">11546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePetIDFromTheStoreWithoutMandatoryFieldPetID</span>
+                <span class="method-start">14672 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.GetPetByID</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateRandomID</span>
+                <span class="method-start">16508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getPetByID</span>
+                <span class="method-start">19032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDeletePetAsNotFound</span>
+                <span class="method-start">21494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetByInvalidID</span>
+                <span class="method-start">25264 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.GetPetByStatus</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getPetByInvalidStatus</span>
+                <span class="method-start">27318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getPetByRemovingStatus</span>
+                <span class="method-start">29524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetByStatus(available)</span>
+                <span class="method-start">31086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetByStatus(sold)</span>
+                <span class="method-start">37968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetByStatus(Pending)</span>
+                <span class="method-start">40900 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.PostCreatePetAPI</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createPetWIthSameID</span>
+                <span class="method-start">43654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetWithMandatoryFields</span>
+                <span class="method-start">46809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">notAbleToCreatePetAsEmptyObjectError400</span>
+                <span class="method-start">48447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notAbleToCreatePetAsIDIsMissingError500</span>
+                <span class="method-start">49968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notAbleToCreatePetAsResourceIsMissingError404</span>
+                <span class="method-start">54354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">notAbleToCreatePetBadRequestError400</span>
+                <span class="method-start">55680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notAbleToCreatePetWithoutBodyError405</span>
+                <span class="method-start">57038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postAPIToCreatePetWithDifferentStatus(available)</span>
+                <span class="method-start">60910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postAPIToCreatePetWithDifferentStatus(sold)</span>
+                <span class="method-start">62263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postAPIToCreatePetWithDifferentStatus(Pending)</span>
+                <span class="method-start">63795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">postAPIToCreatePetWithoutMandatoryFieldsError400</span>
+                <span class="method-start">66054 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.PostPetInStoreWithFormData</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateRandomID</span>
+                <span class="method-start">68607 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">updateExistingPetWithNameAndStatus(Jack, available)</span>
+                <span class="method-start">70036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingPetWithNameAndStatus(Jo, sold)</span>
+                <span class="method-start">71354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingPetWithNameAndStatus(Mike, Pending)</span>
+                <span class="method-start">72645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updatePetWithInvalidFields</span>
+                <span class="method-start">74083 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.PostUploadPetImage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateRandomID</span>
+                <span class="method-start">75619 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">updateExistingPetWithImage</span>
+                <span class="method-start">77102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updatePetWithDeletedPetID</span>
+                <span class="method-start">78744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updatePetWithMandatoryFields</span>
+                <span class="method-start">81445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatePetWithoutMandatoryFields</span>
+                <span class="method-start">82925 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.PutUpdateAnExistingPet</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateRandomID</span>
+                <span class="method-start">84318 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">notAbleToCreatePetAsEmptyObjectError400</span>
+                <span class="method-start">86445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notAbleToCreatePetAsIDIsMissingError500</span>
+                <span class="method-start">87900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notAbleToCreatePetWithoutBodyError405</span>
+                <span class="method-start">90007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">notAbleToUpdatePetBadRequestError400</span>
+                <span class="method-start">91404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updatePetWithDeletedPetID</span>
+                <span class="method-start">92742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatePetWithDifferentStatusForSamePetID(available)</span>
+                <span class="method-start">95536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatePetWithDifferentStatusForSamePetID(sold)</span>
+                <span class="method-start">97075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatePetWithDifferentStatusForSamePetID(Pending)</span>
+                <span class="method-start">98406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatePetWithMandatoryFields</span>
+                <span class="method-start">99788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updatePetWithoutMandatoryFieldsError400</span>
+                <span class="method-start">101360 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.petstore.testsAPI.PostCreatePetAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">deleteRandomPetID</span>
+                <span class="method-start">102795 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
